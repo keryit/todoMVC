@@ -22,7 +22,7 @@ public class SetUp {
 
     @AfterTest
     public void tearDown() {
-     //   DRIVER.manage().deleteAllCookies();
-     //   DRIVER.quit();
+        DRIVER.manage().deleteAllCookies();
+        DRIVER.quit();
     }
 }
